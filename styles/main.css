@@ -1,0 +1,117 @@
+html,body{
+    height: 120vh;
+    background-image: url(../images/unnamed.jpg);
+    background-repeat: no-repeat;
+    background-size: 120% 130%;
+}
+body{
+    width: 70%;
+    height: 120%;
+    margin: 0 auto;   
+}
+.left{
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-color: #CCC;
+    border: 1px solid #CCCC;
+    box-sizing: border-box;
+}
+.right{
+    float: left;
+    width: 70%;
+    height: 100%;
+    padding-left: 2em;
+    border: 1px solid #fff;
+    background-color: snow;
+    box-sizing: border-box;
+}
+h1{
+    text-shadow: 
+    1px 1px  dimgray,
+    2px 2px  dimgray,
+    3px 4px  dimgray,
+    4px 5px  dimgray;
+}
+h1,h2,h3,h4{
+    font-style: italic;
+}
+.right a:visited{
+    color: #000;
+}
+.right a:hover{
+    color: goldenrod;
+}
+.right a:active{
+    color:#00f
+}
+.left h1{
+    margin: 2em 0em 1em 2em;
+}
+.left img{
+    margin-left: 4.5em;
+    width: 8em;
+    border-radius: 5%;
+    animation: test 8s;
+}
+@keyframes test{
+    0%, 100%{
+        
+        
+    }
+    20%{
+        
+        filter:sepia(100%);
+    }
+}
+.left h2{
+    text-decoration: underline #000;
+    margin-left: 4em;
+    font-size: 1em;
+}
+.left p{
+    margin-left: 4em;
+}
+.right p{
+    margin-right: 3em;
+}
+.right h3{
+    margin-top: 4em;
+    text-decoration: underline #000;
+}
+.right h4{
+    text-decoration: underline #000;
+}
+.right i{
+    margin-left: 30em;
+}
+.right div{
+    font-size: 1em;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color:mediumblue;
+}
+a:hover{
+    color: goldenrod;
+}
+a::before{
+    content: '\2023"';
+}
+a::after{
+    content: '"';
+}
+#progres a:visited{
+    color:mediumblue
+}
+#progres a:hover{
+    color: goldenrod;
+}
+
+
+
+
+
+
