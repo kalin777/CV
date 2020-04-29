@@ -2,7 +2,7 @@ html,body{
     height: 120vh;
     background-image: url(../images/unnamed.jpg);
     background-repeat: no-repeat;
-    background-size: 120% 130%;
+    background-size: 100% 120%;
 }
 body{
     width: 70%;
@@ -35,6 +35,9 @@ h1{
 }
 h1,h2,h3,h4{
     font-style: italic;
+}
+.right a{
+    color: #000;
 }
 .right a:visited{
     color: #000;
@@ -83,7 +86,7 @@ h1,h2,h3,h4{
     text-decoration: underline #000;
 }
 .right i{
-    margin-left: 30em;
+    margin-left:30em;
 }
 .right div{
     font-size: 1em;
