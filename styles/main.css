@@ -27,13 +27,6 @@ body{
     background-color: snow;
     box-sizing: border-box;
 }
-h1{
-    text-shadow: 
-    1px 1px  dimgray,
-    2px 2px  dimgray,
-    3px 4px  dimgray,
-    4px 5px  dimgray;
-}
 h1,h2,h3,h4{
     font-style: italic;
 }
